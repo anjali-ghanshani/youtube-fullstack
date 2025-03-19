@@ -1,0 +1,26 @@
+{
+  "name": "vedioproceesingservice",
+  "version": "1.0.0",
+  "description": "vedio-processing-service",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.ts"
+  },
+  "keywords": [
+    "youtube",
+    "fullStack"
+  ],
+  "author": "Anjali Ghanshani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
