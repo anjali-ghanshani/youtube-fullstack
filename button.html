@@ -1,0 +1,258 @@
+<style>
+  .subscribe-button {
+    background-color: rgb(204, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    font-size: 14px;
+  }
+
+  .subscribe-button:hover {
+    opacity: 0.8;
+  }
+
+  .subscribe-button:active {
+    opacity: 0.5;
+  }
+  .join-button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(41, 118, 211);
+    border: 1px solid rgb(41, 118, 211);
+    border-radius: 2px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 16px;
+    padding-left: 16px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: background-color 0.15s, color 0.15s;
+  }
+  .join-button:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+  }
+  .join-button:active {
+    opacity: 0.5;
+  }
+
+  .tweet-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 8px;
+    transition: box-shadow 0.3s;
+  }
+
+  .tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  .uber-button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    cursor: pointer;
+  }
+
+  .amazon-button {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 32px;
+    padding-left: 32px;
+    cursor: pointer;
+    margin-left: 8px;
+  }
+  .github-button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 24px;
+    padding-left: 24px;
+    cursor: pointer;
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .bootstrap-getstarted {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 32px;
+    padding-left: 32px;
+    cursor: pointer;
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .bootstrap-dowload {
+    background-color: rgb(255, 255, 255);
+    color: rgb(108, 117, 125);
+    border: 2px solid rgb(108, 117, 125);
+    border-radius: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 32px;
+    padding-left: 32px;
+    cursor: pointer;
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .linkedin-apply {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 32px;
+    padding-left: 32px;
+    cursor: pointer;
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .linkedin-save {
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 102, 194);
+    border: 2px solid rgb(10, 102, 194);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 32px;
+    padding-left: 32px;
+    cursor: pointer;
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  span {
+    text-decoration: underline;
+    color: rgb(38, 0, 255);
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  span:hover {
+    cursor: pointer;
+  }
+  span:active {
+    opacity: 0.5;
+  }
+
+  .pagination {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .stretch {
+    transition: padding 0.3s;
+    background-color: green;
+    color: white;
+    border: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .stretch:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .margin-padding {
+    transition: margin 0.3s, padding 0.3s;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .margin-padding:hover {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+</style>
+<div>
+  <button class="subscribe-button">SUBSCRIBE</button>
+  <button class="join-button">JOIN</button>
+  <button class="tweet-button">Tweet</button>
+  <br />
+  <br />
+  <br />
+  <br />
+
+  <button class="uber-button">Request Now</button>
+  <button class="amazon-button">Add to Cart</button>
+  <button class="github-button">Sign up</button>
+
+  <br />
+  <br />
+  <br />
+
+  <button class="bootstrap-getstarted">Get started</button>
+  <button class="bootstrap-dowload">Download</button>
+
+  <br />
+  <br />
+  <br />
+
+  <button class="linkedin-apply">Apply on company website</button>
+  <button class="linkedin-save">Save</button>
+
+  <br />
+  <br />
+  <br />
+
+  <button class="pagination">Back</button>
+  <span>1</span>
+  <span>2</span>
+  <span>3</span>
+  <span>4</span>
+  <span>5</span>
+  <button class="pagination">Next</button>
+
+  <br />
+  <br />
+  <br />
+  <br />
+  <button class="stretch">Stretch</button>
+</div>
+
+<br />
+<br />
+<br />
+<br />
+<button class="margin-padding">One</button>
+<button class="margin-padding">two</button>
+<button class="margin-padding">three</button>
