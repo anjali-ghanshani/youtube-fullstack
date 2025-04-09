@@ -1,5 +1,4 @@
-<style>
-  .subscribe-button {
+.subscribe-button {
     background-color: rgb(204, 0, 0);
     color: white;
     border: none;
@@ -202,57 +201,3 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-</style>
-<div>
-  <button class="subscribe-button">SUBSCRIBE</button>
-  <button class="join-button">JOIN</button>
-  <button class="tweet-button">Tweet</button>
-  <br />
-  <br />
-  <br />
-  <br />
-
-  <button class="uber-button">Request Now</button>
-  <button class="amazon-button">Add to Cart</button>
-  <button class="github-button">Sign up</button>
-
-  <br />
-  <br />
-  <br />
-
-  <button class="bootstrap-getstarted">Get started</button>
-  <button class="bootstrap-dowload">Download</button>
-
-  <br />
-  <br />
-  <br />
-
-  <button class="linkedin-apply">Apply on company website</button>
-  <button class="linkedin-save">Save</button>
-
-  <br />
-  <br />
-  <br />
-
-  <button class="pagination">Back</button>
-  <span>1</span>
-  <span>2</span>
-  <span>3</span>
-  <span>4</span>
-  <span>5</span>
-  <button class="pagination">Next</button>
-
-  <br />
-  <br />
-  <br />
-  <br />
-  <button class="stretch">Stretch</button>
-</div>
-
-<br />
-<br />
-<br />
-<br />
-<button class="margin-padding">One</button>
-<button class="margin-padding">two</button>
-<button class="margin-padding">three</button>
