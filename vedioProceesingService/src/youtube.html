@@ -4,82 +4,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube</title>
+    <link rel="stylesheet" href="./styles/video.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/general.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <style>
-      p {
-        font-family: "Roboto", sans-serif;
-        margin-top: 0px;
-        margin-bottom: 0px;
-      }
-      .thumbnail {
-        display: block;
-        width: 100%;
-        border-radius: 8px;
-      }
-      .search-bar {
-        text-align: center;
-        margin: 20px auto;
-      }
-
-      .search-bar1 {
-        width: 300px;
-        height: 50px;
-        border-radius: 25px;
-        padding-left: 20px;
-        font-size: 20px;
-        font-family: "Roboto", sans-serif;
-        border: 1px solid #ccc;
-      }
-
-      .video-title {
-        font-size: 14px;
-        font-weight: 500;
-        color: #333;
-        line-height: 20px;
-      }
-      .video-stats {
-        font-size: 12px;
-        color: rgb(96, 96, 96);
-        line-height: 20px;
-        margin-top: 5px;
-      }
-      .video-author {
-        font-size: 12px;
-        color: rgb(96, 96, 96);
-        line-height: 22px;
-        margin-top: 15px;
-      }
-
-      .video-preview {
-      }
-
-      .channel-logo {
-        height: 50px;
-        border-radius: 50%;
-        margin-right: 20px;
-      }
-      .video-description {
-        display: grid;
-        margin-top: 15px;
-        grid-template-columns: 50px 1fr;
-        gap: 10px;
-      }
-      .video-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 16px;
-        row-gap: 50px;
-      }
-    </style>
   </head>
   <body>
-    <div class="search-bar">
-      <input class="search-bar1" type="text" placeholder="Search" />
+    <div class="header">
+      <div class="left-section">
+        <img
+          class="hamburger-menu"
+          src="./icon-images/hamburger-menu.svg"
+          alt="hamburger-menu"
+        />
+        <img
+          class="youtube-logo"
+          src="./icon-images/youtube-logo.svg"
+          alt="youtube-logo"
+        />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img
+            class="search-icon"
+            src="./icon-images/search.svg"
+            alt="search"
+          />
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="./icon-images/voice-search-icon.svg"
+            alt="voice-search-icon"
+          />
+        </button>
+      </div>
+      <div class="right-section">
+        <img
+          class="upload-icon"
+          src="./icon-images/upload.svg"
+          alt="upload-icon"
+        />
+        <img
+          class="apps-icon"
+          src="./icon-images/youtube-apps.svg"
+          alt="apps-icon"
+        />
+        <img
+          class="notification-icon"
+          src="./icon-images/notifications.svg"
+          alt="notification-icon"
+        />
+        <img
+          class="user-icon"
+          src="./channels/channel-1.jpeg"
+          alt="user-icon"
+        />
+      </div>
     </div>
     <div class="video-grid">
       <div class="video-preview">
