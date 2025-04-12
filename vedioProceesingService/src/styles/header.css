@@ -46,6 +46,46 @@
   cursor: pointer;
   border-radius: 2px;
   margin-left: -1px;
+  margin-right: 10px;
+  position: relative;
+}
+.tooltip-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-button .tooltip,
+.voice-search-button .tooltip,
+.upload-icon-container .tooltip,
+.apps-icon-container .tooltip,
+.notification-icon-container .tooltip {
+  font-family: Roboto;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -10px;
+
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  white-space: nowrap;
+
+  pointer-events: none;
+}
+
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.apps-icon-container:hover .tooltip,
+.notification-icon-container:hover .tooltip {
+  opacity: 1;
 }
 
 .search-icon {

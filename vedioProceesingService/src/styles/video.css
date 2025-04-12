@@ -36,12 +36,26 @@
 }
 .video-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 50px;
-  position: static;
-  background-color: rgba(211, 211, 211, 0.364);
   padding: 20px;
+}
+@media (max-width: 1200px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 580px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .thumbnail-row {
